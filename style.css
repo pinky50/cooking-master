@@ -1,0 +1,17 @@
+body{
+    background-color: pink;
+}
+
+.form{
+    /* margin: 0 auto;
+    width: 50%; */
+    text-align: center;
+    margin-top: 50px;
+}
+.form input{
+    padding: 10px;
+}
+.form button{
+    padding: 10px;
+    font-size: 14px; 
+}
