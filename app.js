@@ -28,7 +28,7 @@
      const searchResult = result =>{
          const searchResult = document.getElementById('search-result')
          result.meals.forEach(element => {
-            searchResult.innerHTML = `
+            searchResult.innerHTML += `
                 <div id="food-view" onClick="foodDetaile(${element.idMeal})" >
                     <img class = "image" src="${element.strMealThumb}"  alt="" />
                     <h3>${element.strMeal}</h3>
