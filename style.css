@@ -1,12 +1,14 @@
 body{
-    background-color: pink;
+    background-color:#EDD263;
+}
+.container{
+    width: 1200px;
 }
 
 .form{
-    /* margin: 0 auto;
-    width: 50%; */
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .form input{
     padding: 10px;
@@ -14,8 +16,15 @@ body{
 .form button{
     padding: 10px;
     font-size: 14px; 
+    background-color: #3B2D64;
+    color: white;
+}
+
+.search-result{
+    background-color: white;
 }
 
 .image{
     width: 300px;
 }
+
