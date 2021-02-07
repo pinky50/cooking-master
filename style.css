@@ -28,3 +28,16 @@ body{
     width: 300px;
 }
 
+.food-view{
+    cursor: pointer;
+}
+
+.not-found{
+    text-align: center;
+    background-color: pink;
+    padding: 20px;
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
